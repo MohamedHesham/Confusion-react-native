@@ -13,6 +13,7 @@ function Menu(props) {
                 subtitle={item.description}
                 hideChevron={true}
                 leftAvatar={{ source: require('./images/alberto.png') }}
+                onPress={() => props.onPress(item.id)}
             />
         );
     };
