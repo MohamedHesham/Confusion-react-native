@@ -26,6 +26,7 @@ function History() {
         </Card>
     );
 };
+
 class AboutUs extends Component {
     constructor(props) {
         super(props);
@@ -37,6 +38,7 @@ class AboutUs extends Component {
     static navigationOptions = {
         title: 'About Us'
     };
+    
     render() {
 
         const renderLeaderItem = ({ item, index }) => {
